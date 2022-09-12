@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main-program entry point.
+ * main-main block.
  *
  * Return 1 on sucess.
  */
