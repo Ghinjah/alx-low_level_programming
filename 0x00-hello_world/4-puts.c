@@ -1,4 +1,4 @@
-echo include <stdio.h>
+include <stdio.h>
 /**
  * main - Entry point
  * description: prints "\"Programming is like building a multilingual puzzle"*
