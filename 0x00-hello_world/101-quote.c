@@ -1,8 +1,9 @@
 #include <unistd.h>
 /**
- * main-main block.
+ * function_name - short description, single line
+ * description: longer description of the function
  *
- * Return 1 on sucess.
+ * Return: description of the returned value
  */
 int main(void)
 {
