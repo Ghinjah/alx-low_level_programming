@@ -7,6 +7,7 @@
  *
  * Return:Always (Success)
  */
+
 {
 	int n;
 
