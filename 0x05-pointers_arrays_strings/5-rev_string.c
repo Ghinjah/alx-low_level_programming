@@ -1,17 +1,38 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
-* main - check the code
+*rev_string - Reverses a string
+*@s: string to be reversed
 *
-* Return: Always 0
+*Return: nothing
 */
 
-int main(void)
+void rev_string(char *s)
 {
-	char s[10] = "My School";
+	int i, tmp, len = _strlen(s);
 
-	cout << "%s\n" << s;
-	rev_string(s);
-	return (0);
+	for (i = 0; i < len / 2; i++)
+	{
+		tmp = *(s + i);
+		*(s + i) = *(s + len - i - 1);
+		*(s + len - i - 1) = tmp;
+	}
+}
+
+/**
+*_strlen - returns the length of a string
+*@s: string
+*
+*Return: the length of the given string
+*/
+
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+
+	return (len);
 }
