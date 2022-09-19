@@ -4,7 +4,7 @@
 /**
 * main - check the code
 *
-* Return: Always 0.
+* Return: Always 0
 */
 
 int main(void)
@@ -13,6 +13,5 @@ int main(void)
 
 	cout << "%s\n" << s;
 	rev_string(s);
-	cout << "%s\n" << s;
 	return (0);
 }
